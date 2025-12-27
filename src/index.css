@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Mengatur scroll halus */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Mengatur font default body */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #050505; /* Menjaga background tetap gelap */
+  color: white;
+}
+
+/* Mengatur font khusus untuk semua Heading (h1 - h6) */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif;
+  letter-spacing: -0.02em; /* Sedikit merapatkan huruf agar lebih modern */
+}
+
+/* Kustomisasi Scrollbar (Opsional - agar lebih estetik) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
