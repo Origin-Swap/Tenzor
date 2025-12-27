@@ -7,47 +7,13 @@ const Navbar = () => {
   return (
     // STEP 1: Hilangkan background utama, beri padding atas agar 'floating'
     <nav className="fixed w-full z-50 top-0 pt-6 transition-all duration-300">
-      <div className="container mx-auto px-6 flex justify-between items-center relative">
+      <div className="container mx-auto md:px-6 px-2 flex justify-between items-center relative">
 
         {/* --- LOGO SECTION (Kiri) --- */}
         <div className="flex items-center gap-3 z-20">
-            <div className="w-10 h-10 flex-shrink-0">
-                <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full drop-shadow-[0_0_10px_rgba(168,85,247,0.5)]">
-                    <defs>
-                        <linearGradient id="diamondGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" stopColor="#E5E7EB"></stop>
-                            <stop offset="30%" stopColor="#F3F4F6"></stop>
-                            <stop offset="70%" stopColor="#D1D5DB"></stop>
-                            <stop offset="100%" stopColor="#9CA3AF"></stop>
-                        </linearGradient>
-                        <linearGradient id="innerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" stopColor="#374151"></stop>
-                            <stop offset="50%" stopColor="#1F2937"></stop>
-                            <stop offset="100%" stopColor="#111827"></stop>
-                        </linearGradient>
-                        <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" stopColor="#A855F7"></stop> {/* Changed to Purple */}
-                            <stop offset="50%" stopColor="#9333EA"></stop>
-                            <stop offset="100%" stopColor="#7E22CE"></stop>
-                        </linearGradient>
-                        <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-                            <stop offset="0%" stopColor="#A855F7" stopOpacity="0.8"></stop>
-                            <stop offset="70%" stopColor="#9333EA" stopOpacity="0.4"></stop>
-                            <stop offset="100%" stopColor="#7E22CE" stopOpacity="0.1"></stop>
-                        </radialGradient>
-                    </defs>
-                    <path d="M50 10 L80 30 L80 70 L50 90 L20 70 L20 30 Z" fill="url(#diamondGradient)" stroke="#9CA3AF" strokeWidth="0.5" className="drop-shadow-lg"></path>
-                    <path d="M50 20 L70 35 L70 65 L50 80 L30 65 L30 35 Z" fill="url(#innerGradient)" stroke="#374151" strokeWidth="0.3"></path>
-                    <path d="M50 25 L65 37 L65 63 L50 75 L35 63 L35 37 Z" fill="url(#blueGradient)" opacity="0.7"></path>
-                    <circle cx="50" cy="50" r="15" fill="url(#centerGlow)"></circle>
-                    <circle cx="50" cy="50" r="3" fill="#FFFFFF" opacity="0.9"></circle>
-                    <path d="M50 10 L50 25 M50 75 L50 90 M20 30 L35 37 M65 37 L80 30 M20 70 L35 63 M65 63 L80 70" stroke="#F3F4F6" strokeWidth="1" opacity="0.6"></path>
-                    <path d="M30 35 L50 25 L70 35 M30 65 L50 75 L70 65" stroke="#A855F7" strokeWidth="0.8" opacity="0.4"></path>
-                </svg>
+            <div className="md:w-32 w-24 h-10">
+                <img src="/images/logo1.png" />
             </div>
-            <span className="md:block hidden text-2xl font-display font-bold tracking-wider text-white">
-                TENZOR
-            </span>
         </div>
 
         {/* --- CENTER MENU (The "Pill") --- */}

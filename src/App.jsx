@@ -1,23 +1,25 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Partners from './components/Partners';
-import Features from './components/Features';
+import TechStack from './components/TechStack'; // GANTI Stats dengan ini
+import About from './components/About';
 import HowItWorks from './components/HowItWorks';
-import Technology from './components/Technology';
+import Roadmap from './components/Roadmap';
 import Team from './components/Team';
+import FAQ from './components/FAQ'; // TAMBAHKAN ini
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#050505] font-sans selection:bg-cyan-500 selection:text-black overflow-x-hidden">
+    <div className="min-h-screen bg-slate-950 text-slate-200 font-sans selection:bg-indigo-500 selection:text-white">
       <Navbar />
       <Hero />
-      <Partners />
-      <Features />
+      <TechStack />  {/* Lebih baik untuk Early Stage daripada Stats */}
+      <About />
       <HowItWorks />
-      <Technology />
+      <Roadmap/>
       <Team />
+      <FAQ />        {/* Penting untuk menjawab keraguan investor */}
       <Footer />
     </div>
   );
