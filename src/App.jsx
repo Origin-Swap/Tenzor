@@ -18,7 +18,7 @@ function App() {
       <About />
       <HowItWorks />
       <Roadmap/>
-      <Team />
+      {/* <Team /> */}
       <FAQ />        {/* Penting untuk menjawab keraguan investor */}
       <Footer />
     </div>

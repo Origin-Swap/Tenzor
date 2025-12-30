@@ -18,7 +18,7 @@ const Navbar = () => {
 
         {/* --- CENTER MENU (The "Pill") --- */}
         {/* Menggunakan absolute centering agar tepat di tengah layar */}
-        <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 items-center gap-1 bg-[#0a0a0a]/50 backdrop-blur-md border border-white/10 rounded-full px-2 py-1.5 shadow-lg shadow-purple-900/5">
+        <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 items-center font-bold gap-1 bg-white/10 backdrop-blur-md border border-white/10 rounded-full px-2 py-1.5 shadow-lg shadow-purple-900/5">
           <NavLink href="#features">Features</NavLink>
           <NavLink href="#how-it-works">How It Works</NavLink>
           <NavLink href="#technology">Technology</NavLink>
