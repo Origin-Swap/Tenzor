@@ -29,7 +29,6 @@ const Navbar = () => {
         <div className="hidden md:block z-20">
           <button className="flex items-center gap-2 bg-transparent border border-purple-500/30 text-white px-6 py-2.5 rounded-full font-medium hover:bg-purple-500/10 hover:border-purple-400 hover:shadow-[0_0_15px_rgba(168,85,247,0.3)] transition-all duration-300 group text-sm">
             Get Started
-            <ChevronDown size={14} className="group-hover:rotate-180 transition-transform duration-300 opacity-50" />
           </button>
         </div>
 

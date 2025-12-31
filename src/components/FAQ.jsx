@@ -7,7 +7,7 @@ const FAQ = () => {
   const faqs = [
     {
       question: "Is my capital guaranteed?",
-      answer: "No investment in DeFi is 100% risk-free. However, IndexFi minimizes risk by investing only in blue-chip assets and using over-collateralized lending protocols. We prioritize capital preservation over degen yields."
+      answer: "No investment in DeFi is 100% risk-free. However, TENZOR minimizes risk by investing only in blue-chip assets and using over-collateralized lending protocols. We prioritize capital preservation over degen yields."
     },
     {
       question: "How is the yield generated?",

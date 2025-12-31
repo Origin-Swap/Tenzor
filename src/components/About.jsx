@@ -11,7 +11,7 @@ const About = () => {
           <p className="text-slate-400 text-lg">
             Buying Bitcoin or Ethereum is smart. Letting it sit in a wallet earning 0% is lazy.
             <br className="hidden md:block"/>
-            IndexFi solves the "Lazy Capital" problem by making your portfolio productive.
+            TENZOR solves the "Lazy Capital" problem by making your portfolio productive.
           </p>
         </div>
 

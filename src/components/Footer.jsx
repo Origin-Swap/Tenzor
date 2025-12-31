@@ -8,12 +8,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
 
           {/* Brand */}
-          <div className="col-span-1 md:col-span-1">
+          <div className="col-span-1 md:col-span-">
             <div className="flex items-center gap-2 mb-4">
-              <div className="bg-indigo-600 p-1.5 rounded-lg">
-                <PieChart className="h-5 w-5 text-white" />
-              </div>
-              <span className="font-bold text-xl text-white">IndexFi</span>
+                <div className="md:w-32 w-24 h-10">
+                    <img src="/images/logo1.png" />
+                </div>
             </div>
             <p className="text-slate-500 text-sm leading-relaxed">
               Decentralized protocol for automated crypto asset management. Smart, secure, and transparent investing.
@@ -51,7 +50,7 @@ const Footer = () => {
 
         <div className="border-t border-slate-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-slate-600 text-xs text-center md:text-left">
-            &copy; 2024 IndexFi Protocol. All rights reserved.
+            &copy; 2024 TENZOR Protocol. All rights reserved.
           </p>
           <p className="text-slate-600 text-xs text-center md:text-right">
             Disclaimer: Crypto investments carry high risk. DYOR.

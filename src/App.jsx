@@ -6,6 +6,7 @@ import About from './components/About';
 import HowItWorks from './components/HowItWorks';
 import Roadmap from './components/Roadmap';
 import Team from './components/Team';
+import Partner from './components/Partners';
 import FAQ from './components/FAQ'; // TAMBAHKAN ini
 import Footer from './components/Footer';
 
@@ -18,6 +19,7 @@ function App() {
       <About />
       <HowItWorks />
       <Roadmap/>
+      <Partner />
       {/* <Team /> */}
       <FAQ />        {/* Penting untuk menjawab keraguan investor */}
       <Footer />

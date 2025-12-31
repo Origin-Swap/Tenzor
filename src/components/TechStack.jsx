@@ -1,25 +1,40 @@
-import React from 'react';
-// Note: You would typically import actual SVG logos here.
-// Using text placeholders for code clarity.
+import React from "react"
+
+const tech = [
+  { name: "Ethereum", logo: "https://cryptologos.cc/logos/ethereum-eth-logo.svg" },
+  { name: "Chainlink", logo: "https://cryptologos.cc/logos/chainlink-link-logo.svg" },
+  { name: "The Graph", logo: "https://cryptologos.cc/logos/the-graph-grt-logo.svg" },
+  { name: "Aave V3", logo: "https://cryptologos.cc/logos/aave-aave-logo.svg" },
+]
 
 const TechStack = () => {
   return (
     <section className="bg-slate-900 border-y border-slate-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-        <p className="text-center text-slate-500 text-sm font-semibold uppercase tracking-widest mb-8">
+      <div className="max-w-7xl mx-auto px-6 py-14">
+        <p className="text-center text-slate-500 text-sm font-semibold uppercase tracking-widest mb-10">
           Building on robust infrastructure
         </p>
 
-        {/* Placeholder Logos - Replace with actual SVGs (Solana, Chainlink, The Graph, etc) */}
-        <div className="flex flex-wrap justify-center gap-12 md:gap-20 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-          <span className="text-xl font-bold text-white flex items-center gap-2"><div className="w-6 h-6 bg-slate-700 rounded-full"></div> Ethereum</span>
-          <span className="text-xl font-bold text-white flex items-center gap-2"><div className="w-6 h-6 bg-slate-700 rounded-full"></div> Chainlink</span>
-          <span className="text-xl font-bold text-white flex items-center gap-2"><div className="w-6 h-6 bg-slate-700 rounded-full"></div> The Graph</span>
-          <span className="text-xl font-bold text-white flex items-center gap-2"><div className="w-6 h-6 bg-slate-700 rounded-full"></div> Aave V3</span>
+        <div className="flex flex-wrap justify-center gap-12 md:gap-20 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition duration-500">
+          {tech.map((t, i) => (
+            <div
+              key={i}
+              className="flex items-center gap-4 group transition"
+            >
+              <img
+                src={t.logo}
+                alt={t.name}
+                className="h-10 w-auto object-contain group-hover:scale-110 transition duration-300"
+              />
+              <span className="text-xl font-semibold text-white">
+                {t.name}
+              </span>
+            </div>
+          ))}
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default TechStack;
+export default TechStack
