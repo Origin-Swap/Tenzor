@@ -1,5 +1,6 @@
 import React from 'react';
-import { PieChart, Twitter, Github, Disc } from 'lucide-react';
+import { Twitter, Send } from "lucide-react"
+
 
 const Footer = () => {
   return (
@@ -39,11 +40,21 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-white font-bold mb-4">Community</h4>
-            <div className="flex space-x-4">
-              <a href="#" className="text-slate-400 hover:text-white transition-colors"><Twitter className="h-5 w-5"/></a>
-              <a href="#" className="text-slate-400 hover:text-white transition-colors"><Github className="h-5 w-5"/></a>
-              <a href="#" className="text-slate-400 hover:text-white transition-colors"><Disc className="h-5 w-5"/></a>
+            <h4 className="text-white font-semibold mb-4">Community</h4>
+            <div className="flex items-center gap-4">
+              <a
+                href="#"
+                className="p-3 rounded-xl border border-slate-800 bg-slate-900/50 hover:border-indigo-500/50 hover:bg-indigo-500/10 transition"
+              >
+                <Twitter className="w-5 h-5 text-slate-300 hover:text-white" />
+              </a>
+
+              <a
+                href="#"
+                className="p-3 rounded-xl border border-slate-800 bg-slate-900/50 hover:border-cyan-500/50 hover:bg-cyan-500/10 transition"
+              >
+                <Send className="w-5 h-5 text-slate-300 hover:text-white" />
+              </a>
             </div>
           </div>
         </div>

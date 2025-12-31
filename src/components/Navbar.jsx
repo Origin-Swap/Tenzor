@@ -19,10 +19,9 @@ const Navbar = () => {
         {/* --- CENTER MENU (The "Pill") --- */}
         {/* Menggunakan absolute centering agar tepat di tengah layar */}
         <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 items-center font-bold gap-1 bg-white/10 backdrop-blur-md border border-white/10 rounded-full px-2 py-1.5 shadow-lg shadow-purple-900/5">
-          <NavLink href="#features">Features</NavLink>
+          <NavLink href="#about">Features</NavLink>
           <NavLink href="#how-it-works">How It Works</NavLink>
-          <NavLink href="#technology">Technology</NavLink>
-          <NavLink href="#team">Team</NavLink>
+          <NavLink href="#roadmap">Roadmap</NavLink>
         </div>
 
         {/* --- RIGHT SECTION (Glass Button) --- */}
@@ -41,14 +40,14 @@ const Navbar = () => {
       {/* Mobile Menu (Full Screen Overlay style for better UX with floating nav) */}
       {isMenuOpen && (
         <div className="absolute top-0 left-0 w-full h-screen bg-[#050505]/95 backdrop-blur-xl flex flex-col items-center justify-center space-y-8 z-10 md:hidden">
-           <a href="#features" className="text-2xl text-gray-300 hover:text-purple-400 font-display font-bold" onClick={() => setIsMenuOpen(false)}>Features</a>
+           <a href="#about" className="text-2xl text-gray-300 hover:text-purple-400 font-display font-bold" onClick={() => setIsMenuOpen(false)}>Features</a>
            <a href="#how-it-works" className="text-2xl text-gray-300 hover:text-purple-400 font-display font-bold" onClick={() => setIsMenuOpen(false)}>How It Works</a>
-           <a href="#technology" className="text-2xl text-gray-300 hover:text-purple-400 font-display font-bold" onClick={() => setIsMenuOpen(false)}>Technology</a>
-           <a href="#team" className="text-2xl text-gray-300 hover:text-purple-400 font-display font-bold" onClick={() => setIsMenuOpen(false)}>Team</a>
+           <a href="#roadmap" className="text-2xl text-gray-300 hover:text-purple-400 font-display font-bold" onClick={() => setIsMenuOpen(false)}>Roadmap</a>
 
-           <button className="mt-8 bg-purple-600 px-8 py-3 rounded-full text-white font-bold shadow-[0_0_20px_rgba(168,85,247,0.4)]">
+           <a
+             href="https://app.tenzorassets.com" className="mt-8 bg-purple-600 px-8 py-3 rounded-full text-white font-bold shadow-[0_0_20px_rgba(168,85,247,0.4)]">
              Get Started
-           </button>
+           </a>
         </div>
       )}
     </nav>
