@@ -38,7 +38,7 @@ const HowItWorks = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-white">
             How It Works
           </h2>
-          <p className="mt-4 text-slate-400">
+          <p className="mt-4 text-slate-200">
             No email registration, no KYC. Pure DeFi.
           </p>
         </div>
@@ -69,7 +69,7 @@ const HowItWorks = () => {
               <h3 className="relative text-xl font-bold text-white text-center mb-3">
                 {item.title}
               </h3>
-              <p className="relative text-slate-400 text-center text-sm leading-relaxed">
+              <p className="relative text-slate-200 text-center text-sm leading-relaxed">
                 {item.desc}
               </p>
             </div>

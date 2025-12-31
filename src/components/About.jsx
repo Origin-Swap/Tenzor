@@ -36,7 +36,7 @@ const About = () => {
           <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Why Let Your Blue-Chips Sleep?
           </h3>
-          <p className="text-slate-400 text-md mb-10">
+          <p className="text-slate-200 text-md mb-10">
             Buying Bitcoin or Ethereum is smart. Letting it sit in a wallet earning 0% is lazy.
             <br className="hidden md:block" />
             TENZOR solves the <span className="text-indigo-400 font-semibold">"Lazy Capital"</span> problem by making your portfolio productive.
@@ -52,7 +52,7 @@ const About = () => {
                 <h4 className="text-lg font-bold text-white mb-1">
                   Smart Indexing
                 </h4>
-                <p className="text-slate-400 text-sm leading-relaxed">
+                <p className="text-slate-200 text-sm leading-relaxed">
                   We bundle top 10 assets by market cap and rebalance monthly to always capture market winners.
                 </p>
               </div>
@@ -83,7 +83,7 @@ const About = () => {
                 <h4 className="text-lg font-bold text-white mb-1">
                   Gasless Auto-Compound
                 </h4>
-                <p className="text-slate-400 text-sm leading-relaxed">
+                <p className="text-slate-200 text-sm leading-relaxed">
                   Smart contracts auto-harvest & reinvest yield so you never waste gas on manual claims.
                 </p>
               </div>

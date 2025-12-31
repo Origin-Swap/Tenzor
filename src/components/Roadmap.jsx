@@ -45,7 +45,7 @@ const Roadmap = () => {
           <h2 className="text-4xl font-extrabold bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
             Project Roadmap
           </h2>
-          <p className="mt-4 text-slate-400">
+          <p className="mt-4 text-slate-200">
             Our journey to redefine decentralized investing
           </p>
         </div>
@@ -96,7 +96,7 @@ const Roadmap = () => {
 
               <ul className="relative space-y-3 text-sm">
                 {phase.items.map((item, i) => (
-                  <li key={i} className="flex items-center gap-3 text-slate-400">
+                  <li key={i} className="flex items-center gap-3 text-slate-200">
                     <span className={`w-2 h-2 rounded-full bg-gradient-to-r ${statusStyles[phase.status]}`} />
                     {item}
                   </li>

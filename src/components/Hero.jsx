@@ -19,7 +19,7 @@ const Hero = () => {
               </span>
             </h1>
 
-            <p className="md:text-lg text-sm text-slate-400 max-w-xl mx-auto lg:mx-0 mb-6">
+            <p className="md:text-lg text-sm text-slate-200 max-w-xl mx-auto lg:mx-0 mb-6">
               Diversified index exposure that actively earns yield through DeFi.
               <span className="block text-white font-medium mt-2">
                 Hold smart. Earn harder.
@@ -28,7 +28,7 @@ const Hero = () => {
 
             {/* Desktop CTA */}
             <div className="hidden lg:block max-w-md mx-auto lg:mx-0">
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col font-bold sm:flex-row gap-4">
 
                 {/* Primary */}
                 <a
@@ -42,20 +42,11 @@ const Hero = () => {
                 {/* Secondary */}
                 <a
                   href="https://docs.tenzorassets.com"
-                  className="flex items-center justify-center px-7 py-3 rounded-xl border border-slate-700 text-slate-300 hover:border-indigo-500/50 hover:text-white transition-all focus:outline-none focus:ring-2 focus:ring-indigo-500/50"
+                  className="flex items-center justify-center px-7 py-3 rounded-xl border border-slate-700 text-blue-300 hover:border-indigo-500/50 hover:text-white transition-all focus:outline-none focus:ring-2 focus:ring-indigo-500/50"
                 >
                   Read Docs
                 </a>
 
-              </div>
-
-              <div className="flex items-center justify-center lg:justify-start gap-4 mt-5 text-xs text-slate-500">
-                <span className="flex items-center gap-1">
-                  <TrendingUp className="h-3 w-3 text-emerald-500" />
-                  Live on Testnet
-                </span>
-                <span>•</span>
-                <span>No Wallet Required</span>
               </div>
             </div>
 

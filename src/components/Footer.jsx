@@ -15,7 +15,7 @@ const Footer = () => {
                     <img src="/images/logo1.png" />
                 </div>
             </div>
-            <p className="text-slate-500 text-sm leading-relaxed">
+            <p className="text-slate-300 text-sm leading-relaxed">
               Decentralized protocol for automated crypto asset management. Smart, secure, and transparent investing.
             </p>
           </div>
@@ -23,7 +23,7 @@ const Footer = () => {
           {/* Links */}
           <div>
             <h4 className="text-white font-bold mb-4">Platform</h4>
-            <ul className="space-y-2 text-sm text-slate-400">
+            <ul className="space-y-2 text-sm text-slate-200">
               <li><a href="#" className="hover:text-indigo-400 transition-colors">Vaults</a></li>
               <li><a href="#" className="hover:text-indigo-400 transition-colors">Portfolio</a></li>
               <li><a href="#" className="hover:text-indigo-400 transition-colors">Statistics</a></li>
@@ -32,7 +32,7 @@ const Footer = () => {
 
           <div>
              <h4 className="text-white font-bold mb-4">Support</h4>
-            <ul className="space-y-2 text-sm text-slate-400">
+            <ul className="space-y-2 text-sm text-slate-200">
               <li><a href="#" className="hover:text-indigo-400 transition-colors">Documentation</a></li>
               <li><a href="#" className="hover:text-indigo-400 transition-colors">FAQ</a></li>
               <li><a href="#" className="hover:text-indigo-400 transition-colors">Audits</a></li>
@@ -60,10 +60,10 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-slate-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-slate-600 text-xs text-center md:text-left">
+          <p className="text-slate-300 text-xs text-center md:text-left">
             &copy; 2024 TENZOR Protocol. All rights reserved.
           </p>
-          <p className="text-slate-600 text-xs text-center md:text-right">
+          <p className="text-slate-300 text-xs text-center md:text-right">
             Disclaimer: Crypto investments carry high risk. DYOR.
           </p>
         </div>

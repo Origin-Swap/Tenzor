@@ -25,7 +25,7 @@ const Partners = () => {
           <h2 className="text-3xl font-bold text-white">
             Backed by the Best in Web3
           </h2>
-          <p className="mt-4 text-slate-400 max-w-xl mx-auto text-sm">
+          <p className="mt-4 text-slate-200 max-w-xl mx-auto text-sm">
             Collaborating with industry leaders to build the future of decentralized finance
           </p>
         </div>
